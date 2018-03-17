@@ -1,0 +1,19 @@
+name: ${artifactId}
+main: ${groupId}.${artifactId}
+version: ${version}
+author: TealNerd
+depend: [CivModCore]
+commands:
+  nlgg:
+    usage: '/nlgg <player>'
+    permission: civadmintools.admin
+  epla:
+    usage: '/epla <player>'
+    permission: civadmintools.admin
+  nlsg:
+    usage: '/nlsg <player> <player>'
+    permission: civadmintools.admin
+permissions:
+  civadmintools.admin:
+    description: 'CivAdminTools admin commands'
+    default: op
